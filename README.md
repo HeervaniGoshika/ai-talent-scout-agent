@@ -168,7 +168,7 @@ Experience: 2+ years
 
 ## 📤 Sample Output
 
-Top Candidate: Aman
+Top Candidate: Arnav
 
 -   Match Score: \~65\
 -   Interest Score: \~80\
