@@ -197,7 +197,3 @@ This project demonstrates how **Agentic AI + LLMs + embeddings** can
 transform recruitment into an:
 
 > Intelligent, automated, and explainable system
-
-## 🧑‍💻 Author
-
-Heervani Goshika
