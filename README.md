@@ -26,6 +26,49 @@ Recruiters spend hours: - Screening profiles\
 
 ## 🏗️ System Architecture
 
+          ┌────────────────────┐
+          │   User (Recruiter) │
+          └─────────┬──────────┘
+                    │
+                    ▼
+          ┌────────────────────┐
+          │   Streamlit UI     │
+          └─────────┬──────────┘
+                    │
+        ┌───────────┼────────────┐
+        ▼           ▼            ▼
+
+┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+│ JD Parser    │ │ Candidate DB │ │ Conversation │
+│ (parser.py)  │ │ (JSON file)  │ │ Agent        │
+└──────┬───────┘ └──────┬───────┘ │ (Groq LLM)   │
+       │                │         └──────┬───────┘
+       ▼                ▼                │
+
+       ┌────────────────────────────────▼────────────┐
+       │           Matching Engine                   │
+       │      (Embeddings + Skill Matching)         │
+       └───────────────────┬────────────────────────┘
+                           │
+                           ▼
+              ┌────────────────────────┐
+              │ Interest Scoring Agent │
+              │     (Groq LLM)         │
+              └──────────┬─────────────┘
+                         │
+                         ▼
+              ┌────────────────────────┐
+              │ Ranking & Filtering    │
+              │ (Final Score Logic)    │
+              └──────────┬─────────────┘
+                         │
+                         ▼
+              ┌────────────────────────┐
+              │  Final Output (UI)     │
+              │ Ranked Candidates      │
+              │ + Explanation          │
+              └────────────────────────┘
+
     User → Streamlit UI → JD Parser → Matching Engine → 
     Conversation Agent → Interest Scoring → Ranking → Output
 
