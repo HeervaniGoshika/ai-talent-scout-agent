@@ -184,12 +184,6 @@ Top Candidate: Aman
 -   Simulates real recruiter workflows\
 -   Fully end-to-end automation
 
-## 🔮 Future Improvements
-
--   Integration with LinkedIn / real datasets\
--   Multi-turn candidate conversations\
--   Resume parsing\
--   Feedback-based ranking refinement
 
 ## 🏁 Conclusion
 
