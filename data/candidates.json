@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Aman",
+    "skills": ["Python", "Machine Learning", "NLP"],
+    "experience": 2
+  },
+  {
+    "name": "Riya",
+    "skills": ["Java", "Spring Boot", "Microservices"],
+    "experience": 3
+  },
+  {
+    "name": "Kiran",
+    "skills": ["Python", "Deep Learning", "Computer Vision"],
+    "experience": 2
+  }
+  {
+    "name": "Vikram",
+    "skills": ["Python", "Flask", "REST APIs", "Docker", "PostgreSQL"],
+    "experience": 5
+  },
+  {
+    "name": "Anjali",
+    "skills": ["Java", "Spring Boot", "Hibernate", "Microservices", "MySQL"],
+    "experience": 6
+  },
+  {
+    "name": "Suresh",
+    "skills": ["Python", "NumPy", "Pandas", "Data Analysis", "Matplotlib"],
+    "experience": 2
+  },
+  {
+    "name": "Meera",
+    "skills": ["JavaScript", "Angular", "TypeScript", "RxJS", "HTML", "CSS"],
+    "experience": 4
+  },
+  {
+    "name": "Rohit",
+    "skills": ["Python", "TensorFlow", "Deep Learning", "Keras", "Computer Vision"],
+    "experience": 7
+  },
+  {
+    "name": "Kavya",
+    "skills": ["Python", "NLP", "spaCy", "Transformers", "Text Classification"],
+    "experience": 3
+  },
+  {
+    "name": "Nikhil",
+    "skills": ["C++", "Algorithms", "Data Structures", "System Design", "STL"],
+    "experience": 8
+  },
+  {
+    "name": "Divya",
+    "skills": ["Python", "Pandas", "Data Visualization", "Seaborn", "Excel"],
+    "experience": 4
+  },
+  {
+    "name": "Aditya",
+    "skills": ["Java", "Kafka", "Microservices", "Spring Boot", "Redis"],
+    "experience": 6
+  },
+  {
+    "name": "Pooja",
+    "skills": ["Python", "Scikit-learn", "Machine Learning", "Feature Engineering", "Model Evaluation"],
+    "experience": 5
+  },
+  {
+    "name": "Karthik",
+    "skills": ["JavaScript", "Vue.js", "Node.js", "Express", "MongoDB"],
+    "experience": 3
+  },
+  {
+    "name": "Isha",
+    "skills": ["Python", "PyTorch", "Deep Learning", "GANs", "Image Processing"],
+    "experience": 7
+  },
+  {
+    "name": "Manoj",
+    "skills": ["C#", ".NET", "Azure", "SQL Server", "Web APIs"],
+    "experience": 8
+  },
+  {
+    "name": "Swati",
+    "skills": ["Python", "BERT", "NLP", "Transformers", "Sentiment Analysis"],
+    "experience": 4
+  },
+  {
+    "name": "Yash",
+    "skills": ["Go", "Docker", "Kubernetes", "Distributed Systems", "gRPC"],
+    "experience": 6
+  },
+  {
+    "name": "Tanvi",
+    "skills": ["Python", "Data Science", "Matplotlib", "Statistics", "EDA"],
+    "experience": 2
+  },
+  {
+    "name": "Harsha",
+    "skills": ["Java", "Spring Boot", "REST APIs", "JWT", "Microservices"],
+    "experience": 5
+  },
+  {
+    "name": "Aditi",
+    "skills": ["Python", "XGBoost", "Machine Learning", "Feature Selection", "Hyperparameter Tuning"],
+    "experience": 6
+  },
+  {
+    "name": "Varun",
+    "skills": ["JavaScript", "Next.js", "Tailwind CSS", "React", "Frontend Optimization"],
+    "experience": 3
+  },
+  {
+    "name": "Lakshmi",
+    "skills": ["Python", "OpenCV", "Computer Vision", "Image Segmentation", "Deep Learning"],
+    "experience": 7
+  }
+
+]
