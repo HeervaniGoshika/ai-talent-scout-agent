@@ -26,7 +26,7 @@ Recruiters spend hours: - Screening profiles\
 
 ## 🏗️ System Architecture
 
-    ![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](images/architecture.png)
 
 
 ## ⚙️ Technology Stack
